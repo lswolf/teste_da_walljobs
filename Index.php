@@ -8,7 +8,7 @@
 	<div class="main">  	
 		<input type="checkbox" id="chk" aria-hidden="true">
 
-			<div class="signup">
+			<div class="login">
 				<form method="POST" action="login.php">
 					<label for="chk" aria-hidden="true">Entrar</label>
 					<input type="email" name="email" placeholder="Email" required="">
@@ -17,7 +17,7 @@
 				</form>
 			</div>
 
-			<div class="login">
+			<div class="cadastro">
 				<form method="POST" action="cadastro.php">
 					<label for="chk" aria-hidden="true">Cadastrar</label>
 					<input type="email" name="email" placeholder="Email" required="">
